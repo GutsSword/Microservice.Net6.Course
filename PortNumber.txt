@@ -1,0 +1,14 @@
+
+
+--------------------------
+Identity Service = 5001
+Catolog Service = 5011
+PhotoStock Service = 5012
+Basket Service = 5013
+Discount Service = 5014
+Order Service = 5015
+FakePayment Service = 5016
+FakePayment Service = 5000
+Web Service = 5010
+
+--------------------------

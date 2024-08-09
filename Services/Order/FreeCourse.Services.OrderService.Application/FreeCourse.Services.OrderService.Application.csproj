@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\Course.Shared\FreeCourse.Shared.csproj" />
+    <ProjectReference Include="..\FreeCourse.Services.OrderService.Domain\FreeCourse.Services.OrderService.Domain.csproj" />
+    <ProjectReference Include="..\FreeCourse.Services.OrderService.Infrastructure\FreeCourse.Services.OrderService.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CQRS\Results\" />
+  </ItemGroup>
+
+</Project>

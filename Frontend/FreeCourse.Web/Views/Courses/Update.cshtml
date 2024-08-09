@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewData["Title"] = "Update";
+}
+
+@model UpdateCourseViewModel
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Kurs güncelleme </h5>
+
+                <form asp-controller="Courses" asp-action="Update" method="post" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly"></div>
+                    <input type="hidden" asp-for="CourseId" />
+                    <input type="hidden" asp-for="UserId" />
+                    <input type="hidden" asp-for="Picture" />
+                    <input type="hidden" asp-for="UserId" />
+
+                    <div class="mb-3">
+                        <label>Kategori</label>
+                        <select asp-for="CategoryId" class="form-control" asp-items="@ViewBag.categoryList">
+                        </select>
+
+                        <span class="text-danger" asp-validation-for="CategoryId"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Kurs İsmi</label>
+                        <input asp-for="Name" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Name"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Fiyatı</label>
+                        <input asp-for="Price" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Price"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Açıklama</label>
+                        <textarea asp-for="Description" class="form-control"></textarea>
+                        <span class="text-danger" asp-validation-for="Description"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Kurs Süresi (Saat)</label>
+                        <input asp-for="Feature.Duration" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Feature.Duration"></span>
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label>Kurs Önizleme Görüntüsü</label>
+
+                        <input type="file" asp-for="PhotoFormFile" class="form-control" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Kurs Güncelle</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
