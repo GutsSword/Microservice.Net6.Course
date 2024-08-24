@@ -7,11 +7,66 @@ services:
   discountdb:
     image: postgres
   identitydb:
-    image: mcr.microsoft.com/mssql/server
+    image: mcr.microsoft.com/mssql/server:2022-latest
   orderdb: 
-    image: mcr.microsoft.com/mssql/server
+    image: mcr.microsoft.com/mssql/server:2022-latest
   rabbitmq:
     image: rabbitmq:3.13.6-management
+
+  catolog.api:
+    image: catolog_api_image
+    build:
+      context: .
+      dockerfile: Services/Catolog/Course.CatologService/Dockerfile
+
+  identityserver.api:
+    image: identityserver_api_image
+    container_name: identityserver.api
+    build:
+      context: .
+      dockerfile: IdentityServer/FreeCourse.IdentityServer/Dockerfile
+
+  basket.api:
+    image: basket_api_image
+    build:
+      context: .
+      dockerfile: Services/Basket/FreeCourse.BasketService/Dockerfile
+
+  photostock.api:
+    image: photostock_api_image
+    build:
+      context: .
+      dockerfile: Services/PhotoStock/FreeCourse.photostock/Dockerfile
+
+  discount.api:
+    image: discount_api_image
+    build:
+      context: .
+      dockerfile: Services/Discount/FreeCourse.DiscountService/Dockerfile
+
+  fakepayment.api:
+    image: fakepayment_api_image
+    build:
+      context: .
+      dockerfile: Services/FakePayment/FreeCourse.FakePaymentService/Dockerfile
+
+  order.api:
+    image: order_api_image
+    build:
+      context: .
+      dockerfile: Services/Order/FreeCourse.Services.OrderService.Api/Dockerfile
+
+  gateway.api:
+    image: gateway_api_image
+    build:
+      context: .
+      dockerfile: Gateways/FreeCourse.Gateway/Dockerfile
+
+  mvc.api:
+    image: mvc_api_image
+    build:
+      context: .
+      dockerfile: Frontend/FreeCourse.Web/Dockerfile
 
 volumes:
   catologdb_volume:
