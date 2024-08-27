@@ -32,31 +32,43 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.BasketService", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{32D9A67C-E383-44B8-B6D5-AFBBD89AAB89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.DiscountService", "Services\Discount\FreeCourse.DiscountService\FreeCourse.DiscountService.csproj", "{4BE59F42-532B-4686-B2EC-D0749EC72B61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.DiscountService", "Services\Discount\FreeCourse.DiscountService\FreeCourse.DiscountService.csproj", "{4BE59F42-532B-4686-B2EC-D0749EC72B61}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{1FB0AD70-E4EA-4850-AF4F-A1DDDBEEA82A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.OrderService.Domain", "Services\Order\FreeCourse.Services.OrderService.Domain\FreeCourse.Services.OrderService.Domain.csproj", "{319C3379-9B50-4B6B-9EFD-A705ECDCD6DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Services.OrderService.Domain", "Services\Order\FreeCourse.Services.OrderService.Domain\FreeCourse.Services.OrderService.Domain.csproj", "{319C3379-9B50-4B6B-9EFD-A705ECDCD6DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.OrderService.Application", "Services\Order\FreeCourse.Services.OrderService.Application\FreeCourse.Services.OrderService.Application.csproj", "{4958E987-4F7B-4984-B03C-EBF0A7B8403F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Services.OrderService.Application", "Services\Order\FreeCourse.Services.OrderService.Application\FreeCourse.Services.OrderService.Application.csproj", "{4958E987-4F7B-4984-B03C-EBF0A7B8403F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.OrderService.Infrastructure", "Services\Order\FreeCourse.Services.OrderService.Infrastructure\FreeCourse.Services.OrderService.Infrastructure.csproj", "{4B33E2C0-155B-4AB6-A9AC-53EC7FD21A30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Services.OrderService.Infrastructure", "Services\Order\FreeCourse.Services.OrderService.Infrastructure\FreeCourse.Services.OrderService.Infrastructure.csproj", "{4B33E2C0-155B-4AB6-A9AC-53EC7FD21A30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.OrderService.Domain.Core", "Services\Order\FreeCourse.Services.OrderService.Domain.Core\FreeCourse.Services.OrderService.Domain.Core.csproj", "{902B5D8E-95EF-4442-A8BF-AC46247633A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Services.OrderService.Domain.Core", "Services\Order\FreeCourse.Services.OrderService.Domain.Core\FreeCourse.Services.OrderService.Domain.Core.csproj", "{902B5D8E-95EF-4442-A8BF-AC46247633A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.OrderService.Api", "Services\Order\FreeCourse.Services.OrderService.Api\FreeCourse.Services.OrderService.Api.csproj", "{D2C7B515-EB28-464F-9DA3-DC8B3BAEB3EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Services.OrderService.Api", "Services\Order\FreeCourse.Services.OrderService.Api\FreeCourse.Services.OrderService.Api.csproj", "{D2C7B515-EB28-464F-9DA3-DC8B3BAEB3EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FakePayment", "FakePayment", "{623D32EF-A5A0-4203-B8F7-150016D19BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.FakePaymentService", "Services\FakePayment\FreeCourse.FakePaymentService\FreeCourse.FakePaymentService.csproj", "{3FFC9ECF-24C7-4516-8A93-01C1C034133F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.FakePaymentService", "Services\FakePayment\FreeCourse.FakePaymentService\FreeCourse.FakePaymentService.csproj", "{3FFC9ECF-24C7-4516-8A93-01C1C034133F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{5018075F-26DD-4701-B49E-677F29BC897E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Gateway", "Gateways\FreeCourse.Gateway\FreeCourse.Gateway.csproj", "{FA089DF7-4A67-4963-81FA-B958EA86F17B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Gateway", "Gateways\FreeCourse.Gateway\FreeCourse.Gateway.csproj", "{FA089DF7-4A67-4963-81FA-B958EA86F17B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{C458D424-AFA1-4654-B250-C73DCDDFA087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Web", "Frontend\FreeCourse.Web\FreeCourse.Web.csproj", "{1CC61447-8CDA-4343-9B51-7F723788AF03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Web", "Frontend\FreeCourse.Web\FreeCourse.Web.csproj", "{1CC61447-8CDA-4343-9B51-7F723788AF03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6967A4F-C48F-4F42-A0F9-B2754D738649}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.override.yml = docker-compose.override.yml
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MikroserviceDatabases", "MikroserviceDatabases", "{4ED25EF7-1947-48F3-95D3-78751BFA0DF6}"
+	ProjectSection(SolutionItems) = preProject
+		..\MikroserviceDatabase\docker-compose.override.yml = ..\MikroserviceDatabase\docker-compose.override.yml
+		..\MikroserviceDatabase\docker-compose.yml = ..\MikroserviceDatabase\docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

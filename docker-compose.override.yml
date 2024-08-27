@@ -56,7 +56,7 @@ services:
     ports:
       - "5672:5672"
       - "15672:15672"
-
+      
   catolog.api:
     container_name: catolog.api
     environment:  
@@ -129,7 +129,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - IdentityServerUrl=http://identityserver.api
       - RabbitMqUrl=rabbitmq
-      - "ConnectionStrings:DefaultConnection=Server=orderdb,1444;Database=OrderDb;User=sa;Password=123456aA*;"
+      - "ConnectionStrings:DefaultConnection=Server=orderdb,1433;Database=OrderDb;User=sa;Password=123456aA*;"
     ports:
       - "5015:80"
     depends_on:

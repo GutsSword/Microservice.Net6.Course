@@ -24,12 +24,12 @@
                 <img src="@item.StockPictureUrl" class="card-img-top" alt="..." style="height:275px; width:410">
                 <div class="card-body">
                     <h5 class="card-title">@item.Name</h5>
-                    <div class="badge bg-warning">Kategori : @item.Category.Name</div>
+                    <div class="badge bg-primary">Kategori : @item.Category.Name</div>
                     <p class="card-text">@item.ShortDescription</p>
-                    <h4 class="text-primary">@item.Price TL</h4>
+                    <h4 class="text-dark">@item.Price TL</h4>
 
                     <div>
-                        <a asp-controller="Home" asp-action="Detail" class="btn btn-success" asp-route-id="@item.CourseId">Detay</a>
+                        <a asp-controller="Home" asp-action="Detail" class="btn btn-primary" asp-route-id="@item.CourseId">Detay</a>
                     </div>
                 </div>
             </div>
