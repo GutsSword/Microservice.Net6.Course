@@ -17,7 +17,7 @@
         <li><a href="#usage">Kullanım</a></li>
     </ul>
     <h2 id="about">Hakkında</h2>
-    <p>Proje, kursları görüntüleme, kurs kaydı oluşturma, kurs sepete ekleme ve satın alma işlemlerini içermektedir. Yetkilendirme ve kullanıcı işlemleri için IdentityServer projesinin ücretsiz versiyonu kullanılmıştır. Gateway ile servis endpointleri kullanımı kolaylaştırılmıştır. Frontend tarafında ASP.NET Core MVC projesi oluşturulmuştur. MsSql, Redis, MongoDb ve PostgreSql veri tabanları kullanılmıştır. Uygulama Docker ile konteynırlandırılmıştır.</p>
+    <p>Bu proje, kursları görüntüleme, kayıt oluşturma, kursları sepete ekleme ve satın alma işlemlerini içermektedir. Yetkilendirme ve kullanıcı yönetimi için IdentityServer'ın ücretsiz sürümü kullanılmıştır. Servis endpointlerinin kullanımını kolaylaştırmak için bir Gateway eklenmiştir. Frontend tarafı ASP.NET Core MVC ile oluşturulmuş olup, MsSQL, Redis, MongoDB ve PostgreSQL gibi veritabanları entegre edilmiştir. Uygulama, Docker ile konteynerize edilerek dağıtım ve ölçeklenebilirlik sağlanmıştır.</p>
     <h2 id="getting-started">Başlarken</h2>
     <p>Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin.</p>
     <h2 id="prerequisites">Gereksinimler</h2>
