@@ -57,6 +57,19 @@ namespace FreeCourse.Web.Controllers
         }
 
         [HttpGet]
+        public async Task<IActionResult> CreateCategory()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateCategory(CreateCategoryDto createCategoryDto)
+        {
+            await catologService.CreateCategory(createCategoryDto);
+
+            return RedirectToAction("Index", "Home");
+        }
+        [HttpGet]
         public async Task<IActionResult> Update(string id)
         {
             var course = await catologService.GetByCourseId(id);

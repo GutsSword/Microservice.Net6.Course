@@ -13,5 +13,7 @@ namespace FreeCourse.Web.Services.Interfaces
         Task<bool> CreateCourseAsync(CreateCourseViewModel createCourseViewModel);
         Task<bool> UpdateCourseAsync(UpdateCourseViewModel updateCourseViewModel);
 
+        Task CreateCategory(CreateCategoryDto createCategoryDto);
+
     }
 }

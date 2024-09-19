@@ -17,7 +17,7 @@ services:
     image: catolog_api_image
     build:
       context: .
-      dockerfile: Services/Catolog/Course.CatologService/Dockerfile
+      dockerfile: Services/Catolog/FreeCourse.CatologService/Dockerfile
 
   identityserver.api:
     image: identityserver_api_image
@@ -36,7 +36,7 @@ services:
     image: photostock_api_image
     build:
       context: .
-      dockerfile: Services/PhotoStock/FreeCourse.photostock/Dockerfile
+      dockerfile: Services/PhotoStock/FreeCourse.PhotoStock/Dockerfile
 
   discount.api:
     image: discount_api_image

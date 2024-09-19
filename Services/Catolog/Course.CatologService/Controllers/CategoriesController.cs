@@ -35,7 +35,7 @@ namespace FreeCourse.CatologService.Controllers
             return CreateActionResultInstance(response);
         }
 
-        [HttpPost]
+        [HttpPost(Name = "CreateCategory")]
         public async Task<IActionResult> CreateCategory(CreateCategoryDto createCategoryDto)
         {
             var response = await categoryService.CreateAsync(createCategoryDto);

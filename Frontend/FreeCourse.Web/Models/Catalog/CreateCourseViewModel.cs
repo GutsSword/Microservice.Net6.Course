@@ -13,7 +13,7 @@ namespace FreeCourse.Web.Models.Catalog
 
         public FeatureViewModel Feature { get; set; }
 
-        public string CategoryId { get; set; }
+        public string? CategoryId { get; set; }
 
     }
 }

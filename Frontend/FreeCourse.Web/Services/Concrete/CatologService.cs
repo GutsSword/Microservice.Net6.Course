@@ -136,5 +136,10 @@ namespace FreeCourse.Web.Services.Concrete
 
             return false;
         }
+
+        public async Task CreateCategory(CreateCategoryDto createCategoryDto)
+        {
+            var response = await _httpClient.PostAsJsonAsync("categories", createCategoryDto);
+        }   
     }
 }

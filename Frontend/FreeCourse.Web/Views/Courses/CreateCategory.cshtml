@@ -1,0 +1,13 @@
+﻿@model FreeCourse.Web.Models.Catalog.CreateCategoryDto
+@{
+    ViewData["Title"] = "CreateCategory";
+}
+
+<h1>Kategori Ekle</h1>
+
+<form asp-controller="Courses" asp-action="CreateCategory">
+    <input type="text" asp-for="Name" />
+    <button type="submit">Kategori Ekle</button>
+</form>
+
+
