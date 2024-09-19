@@ -41,7 +41,7 @@
     <ul>
         <li><code>http://localhost:5000</code> - API Gateway</li>
         <li><code>http://localhost:5001</code> - Identity Service</li>
-        <li><code>http://localhost:5002</code> - Product Service</li>
+        <li><code>http://localhost:5010</code> - Web App</li>
     </ul>
 </body>
 </html>
