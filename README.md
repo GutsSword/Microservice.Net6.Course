@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microservice.Net6.Course</title>
 </head>
 <body>
     <h1>Microservice.Net6.Course</h1>
@@ -23,7 +22,6 @@
     <h2 id="prerequisites">Gereksinimler</h2>
     <ul>
         <li>Docker</li>
-        <li>Docker Compose</li>
         <li>.NET 6 SDK</li>
     </ul>
     <h2 id="installation">Kurulum</h2>
